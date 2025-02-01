@@ -1,6 +1,62 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/breeze/compare/v2.2.0...2.x)
+## [Unreleased](https://github.com/laravel/breeze/compare/v2.3.3...2.x)
+
+## [v2.3.3](https://github.com/laravel/breeze/compare/v2.3.2...v2.3.3) - 2025-01-26
+
+* Fix type error in Login component for `setData` function by [@florikodra](https://github.com/florikodra) in https://github.com/laravel/breeze/pull/454
+* Fix tsc error in Pages/Auth/Login.tsx on fresh install by [@MariosIgkiempor](https://github.com/MariosIgkiempor) in https://github.com/laravel/breeze/pull/457
+
+## [v2.3.2](https://github.com/laravel/breeze/compare/v2.3.1...v2.3.2) - 2025-01-21
+
+* [2.x] Unpin typescript version for Inertia Vue stack by [@reyberyturiaga](https://github.com/reyberyturiaga) in https://github.com/laravel/breeze/pull/447
+* Missing type declaration add to NewPasswordController.php by [@ashokbaruaakas](https://github.com/ashokbaruaakas) in https://github.com/laravel/breeze/pull/449
+
+## [v2.3.1](https://github.com/laravel/breeze/compare/v2.3.0...v2.3.1) - 2025-01-13
+
+* [2.x] Remove tailwind config files on api stack by [@p-nerd](https://github.com/p-nerd) in https://github.com/laravel/breeze/pull/444
+* [2.x] Remove redundant `.d.ts` inclusion from `tsconfig.json` by [@panakour](https://github.com/panakour) in https://github.com/laravel/breeze/pull/445
+
+## [v2.3.0](https://github.com/laravel/breeze/compare/v2.2.6...v2.3.0) - 2024-12-14
+
+* Fix typescript version by [@mo7zayed](https://github.com/mo7zayed) in https://github.com/laravel/breeze/pull/442
+* Upgrade to Inertia V2 by [@adamjgriffith](https://github.com/adamjgriffith) in https://github.com/laravel/breeze/pull/443
+
+## [v2.2.6](https://github.com/laravel/breeze/compare/v2.2.5...v2.2.6) - 2024-11-20
+
+* [2.x] Supports PHPStan 2 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/breeze/pull/441
+
+## [v2.2.5](https://github.com/laravel/breeze/compare/v2.2.4...v2.2.5) - 2024-11-12
+
+* fix(ts): remove redundant [@ts-expect-error](https://github.com/ts-expect-error) directives in SSR route setup by [@datlechin](https://github.com/datlechin) in https://github.com/laravel/breeze/pull/434
+* Backport JetStream Modal.vue enhancements by [@mrleblanc101](https://github.com/mrleblanc101) in https://github.com/laravel/breeze/pull/435
+* Convert array to single line format by [@Rattone](https://github.com/Rattone) in https://github.com/laravel/breeze/pull/436
+* [2.x] Replace `Rule` with `ValidationRule` by [@avosalmon](https://github.com/avosalmon) in https://github.com/laravel/breeze/pull/437
+
+## [v2.2.4](https://github.com/laravel/breeze/compare/v2.2.3...v2.2.4) - 2024-10-29
+
+* fix(sanctum): add 127.0.0.1:3000 for proper API auth during local development with 127.0.0.1:3000 by [@ShahAlamShaikat](https://github.com/ShahAlamShaikat) in https://github.com/laravel/breeze/pull/431
+* Using the translate function instead of a static value by [@ashkanfekridev](https://github.com/ashkanfekridev) in https://github.com/laravel/breeze/pull/432
+
+## [v2.2.3](https://github.com/laravel/breeze/compare/v2.2.2...v2.2.3) - 2024-10-17
+
+* [2.x] Fixed TypeScript Errors in React SSR Setup with Ziggy Props when Builds by [@akr4m](https://github.com/akr4m) in https://github.com/laravel/breeze/pull/430
+
+## [v2.2.2](https://github.com/laravel/breeze/compare/v2.2.1...v2.2.2) - 2024-10-06
+
+* Update logo to support dark/light theme by [@milewski](https://github.com/milewski) in https://github.com/laravel/breeze/pull/418
+* Add hint to clarify how to use multiselect by [@bdweix](https://github.com/bdweix) in https://github.com/laravel/breeze/pull/417
+* [2.x] Utilise `Illuminate\Support\php_binary()` by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/breeze/pull/421
+* Remove blade unescape for attributes by [@Rattone](https://github.com/Rattone) in https://github.com/laravel/breeze/pull/422
+* [2.x] chore: text-input to use [@disabled](https://github.com/disabled) by [@MrPunyapal](https://github.com/MrPunyapal) in https://github.com/laravel/breeze/pull/427
+* Updated names of the default functions to match the file names. by [@msamgan](https://github.com/msamgan) in https://github.com/laravel/breeze/pull/428
+
+## [v2.2.1](https://github.com/laravel/breeze/compare/v2.2.0...v2.2.1) - 2024-09-22
+
+* [2.x] Add `pnpm` lockfile to `flushNodeModules` by [@osbre](https://github.com/osbre) in https://github.com/laravel/breeze/pull/411
+* [2.x] Add option to install ESLint with Prettier by [@avosalmon](https://github.com/avosalmon) in https://github.com/laravel/breeze/pull/412
+* [2.x] Allows GitHub Actions to run directly from GA UI by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/breeze/pull/413
+* Refactor: Break long email validation rule into multiple lines by [@Amidope](https://github.com/Amidope) in https://github.com/laravel/breeze/pull/416
 
 ## [v2.2.0](https://github.com/laravel/breeze/compare/v2.1.5...v2.2.0) - 2024-09-11
 
